@@ -1,0 +1,90 @@
+:root {
+    font-size: 10px;
+    
+}
+
+*,
+*::before,
+*::after{
+    box-sizing:border-box;
+
+}
+
+body{
+    font-family: "Open Sans", Arial, sans-serif;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+
+}
+
+img {
+    display: block;
+
+}
+/* moves the image more towards the center of the page */
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+
+}
+
+.btn {
+    all: unset;
+    background: none;
+    color: none;
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+
+}
+
+.btn:focus {
+    outline: 0.5rem auto #4d90fe;
+
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    windows: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px);
+
+
+}
+
+/* Profile Section */
+
+.profile {
+    padding: 5rem o;
+
+}
+
+.profile:after {
+    content: "";
+    display: block;
+    clear: both;
+
+}
+
+profile-image {
+    float: left;
+    width: calc(33.333% - 1rem); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+
+}
+
+.profile-image img {
+    border-radius: 50%;
+
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio
